@@ -38,3 +38,10 @@ print(text)
 
 new = text.replace("PHP", "C#")
 print(new)
+
+#wypisywanie danych
+rok = 2019
+miesiac = "Marzec"
+dzien = 25
+print("Data: ", end="")
+print(dzien,miesiac,rok, sep="-")
